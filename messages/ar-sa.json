@@ -1,0 +1,67 @@
+{
+  "headerTitle": {
+    "home": {
+      "title": "الصفحة الرئيسية",
+      "link": "/"
+    },
+    "aboutUs": {
+      "title": "من نحن",
+      "link": "/"
+    },
+    "services": {
+      "title": "الخدمات",
+      "link": "/"
+    },
+    "targetMarkets": {
+      "title": "الأسواق المستهدفة",
+      "link": "/"
+    },
+    "partners": {
+      "title": "الشركاء",
+      "link": "/"
+    },
+    "contactUs": {
+      "title": "اتصل بنا",
+      "link": "/"
+    }
+  },
+  "hero": {
+    "title": "مرحبًا بك في إنتقال",
+    "description": "شريكك في التحول الرقمي",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "buttonData": "لنناقش مشروعك التالي",
+    "signUp": "سجّل",
+    "reviews": "1,456+ تقييم",
+    "noCreditCard": "غير مطلوب بطاقة ائتمان",
+    "images": {
+      "docker": {
+        "imageName": "دوكر",
+        "imageUrl": "/company_logo/docker.png"
+      },
+      "github": {
+        "imageName": "جيتهاب",
+        "imageUrl": "/company_logo/github.png"
+      },
+      "gitlab": {
+        "imageName": "جيتلاب",
+        "imageUrl": "/company_logo/gitlab.png"
+      },
+      "google": {
+        "imageName": "جوجل",
+        "imageUrl": "/company_logo/google.png"
+      },
+      "k8s": {
+        "imageName": "k8s",
+        "imageUrl": "/company_logo/k8s.png"
+      },
+      "oracle": {
+        "imageName": "أوراكل",
+        "imageUrl": "/company_logo/oracle.png"
+      },
+      "redhat": {
+        "imageName": "ريد هات",
+        "imageUrl": "/company_logo/redhat.png"
+      }
+    }
+  }
+}

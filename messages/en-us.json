@@ -1,0 +1,64 @@
+{
+  "headerTitle": {
+    "home": {
+      "title": "home",
+      "link": "/"
+    },
+    "aboutUs": {
+      "title": "About Us",
+      "link": "/"
+    },
+    "services": {
+      "title": "services",
+      "link": "/"
+    },
+    "targetMarkets": {
+      "title": "target Markets",
+      "link": "/"
+    },
+    "partners": {
+      "title": "Partners",
+      "link": "/"
+    },
+    "contactUs": {
+      "title": "contact Us",
+      "link": "/"
+    }
+  },
+  "hero": {
+    "title": "Welcome to INTIQAAL",
+    "description": "Your partner to digital transformation",
+    "emailPlaceholder": "Enter your email",
+    "buttonData": "Let's discuss your next project",
+    "signUp": "Sign up",
+    "reviews": "1,456+ Reviews",
+    "noCreditCard": "No Credit Card Required",
+    "images": {
+      "docker": {
+        "imageName:": "Docker",
+        "imageUrl": "/company_logo/docker.png"
+      },
+      "github": {
+        "imageName:": "github",
+        "imageUrl": "/company_logo/github.png"
+      },
+      "gitlab": {
+        "imageName:": "gitlab",
+        "imageUrl": "/company_logo/gitlab.png"
+      },
+      "google": {
+        "imageName:": "google",
+        "imageUrl": "/company_logo/google.png"
+      },
+      "k8s": { "imageName:": "k8s", "imageUrl": "/company_logo/k8s.png" },
+      "oracle": {
+        "imageName:": "oracle",
+        "imageUrl": "/company_logo/oracle.png"
+      },
+      "redhat": {
+        "imageName:": "redhat",
+        "imageUrl": "/company_logo/redhat.png"
+      }
+    }
+  }
+}
