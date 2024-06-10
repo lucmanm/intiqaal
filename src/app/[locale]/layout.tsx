@@ -26,7 +26,7 @@ export default async function RootLayout({
   const direction = getLangDir(locale);
   const messages = await getMessages();
   return (
-    <html lang={locale} dir={direction}>
+    <html lang={locale} dir={direction} data-theme="cupcake" >
       <body className={cairo.className}>
         <NextIntlClientProvider messages={messages}>
           {children}

@@ -15,7 +15,7 @@ export default function Hero() {
     "redhat",
   ] as const;
   return (
-    <section className="bg-slate-800 flex flex-col md:grid md:grid-cols-3 p-8">
+    <section className="flex flex-col md:grid md:grid-cols-3 p-8">
       <div className="flex-1 max-w-lg col-span-2">
         <h1 className="text-4xl lg:text-5xl font-bold mb-6">
           {tHero("title")}
@@ -50,7 +50,7 @@ export default function Hero() {
           <div key={image} className="flex items-center space-x-2">
             <Image
               src={tImage(`${image}.imageUrl`)}
-              alt={tImage(`${image}.imageName`)}
+              alt={"ss"}
               width={100}
               height={100}
               className="h-8 md:h-20 w-auto"

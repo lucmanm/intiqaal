@@ -50,7 +50,10 @@
         "imageName:": "google",
         "imageUrl": "/company_logo/google.png"
       },
-      "k8s": { "imageName:": "k8s", "imageUrl": "/company_logo/k8s.png" },
+      "k8s": {
+        "imageName:": "k8s",
+        "imageUrl": "/company_logo/k8s.png"
+      },
       "oracle": {
         "imageName:": "oracle",
         "imageUrl": "/company_logo/oracle.png"
