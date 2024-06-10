@@ -4,6 +4,7 @@ import { Cairo } from "next/font/google";
 import "./../globals.css";
 import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import { cn } from "@/lib/utils";
 
 const cairo = Cairo({
   weight: ["400", "700"],
@@ -26,11 +27,9 @@ export default async function RootLayout({
   const direction = getLangDir(locale);
   const messages = await getMessages();
   return (
-    <html lang={locale} dir={direction} data-theme="cupcake" >
-      <body className={cairo.className}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+    <html lang={locale} dir={direction} data-theme="cupcake">
+      <body className={cn("", cairo.className)}>
+        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
       </body>
     </html>
   );
